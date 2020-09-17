@@ -44,8 +44,8 @@ Het is niet gelukt om een mobile version te programmeren. Ik heb hier geen ervar
 
 Ik probeerde bijvoorbeeld een navigatie te maken dat geschikt zou zijn voor mobiel maar daar kwam al snel js bij om het bijvoorbeeld uit te klappen en daar moet ik wat beter mee oefenen. 
 
-
-(images/screenshot5.png)(images/screenshot6.png)
+![screenshot1](images/screenshot5.png)
+![screenshot2](images/screenshot6.png)
 
 ### Agenda voor meeting
 
