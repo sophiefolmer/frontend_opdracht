@@ -38,11 +38,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Ik vind de lesstof heel fijn en ik ben blij met de team meetings. Toch vind ik de opdrachten op codepen lastig en lukt het niet altijd. Mijn inzet kan hier veel beter in. 
 
-**Screenshot(s):**
+Het is niet gelukt om een mobile version te programmeren. Ik heb hier geen ervaring in en begon dus toch met de desktop version zodat ik in ieder geval een opzetje zou hebben. 
 
--screenshot(s) van hoe ver je bent-
+Ik probeerde bijvoorbeeld een navigatie te maken dat geschikt zou zijn voor mobiel maar daar kwam al snel js bij om het bijvoorbeeld uit te klappen en daar moet ik wat beter mee oefenen. 
+
+
+(images/screenshot5.png)(images/screenshot6.png)
 
 ### Agenda voor meeting
 
@@ -63,7 +66,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshots.jpg)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot1.png, images/screenshot2.png, images/screenshot3.png, images/screenshot4.png)
 **Breakdown-schets(en):**
 
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/breakdown.jpg)
