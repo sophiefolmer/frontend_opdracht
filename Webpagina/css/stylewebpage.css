@@ -1,0 +1,422 @@
+/* TOP */
+
+body {
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+.logo {
+	width: 50px;
+}
+
+.topnav:first-of-type {
+	position: relative;
+	left: -20px;
+
+}
+
+.topnav a {
+	padding: 1rem;
+}
+
+.topnav {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	background-color: mintcream;
+	margin: 2em;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;
+	padding: 1em;
+}
+
+.topnav input {
+	display: flex;
+	margin-top: 1em;
+	max-width: auto;
+
+}
+
+input[type=text] {
+	font-family: "Futura";
+
+}
+
+
+/* FONT */
+
+a,
+h1 {
+	font-family: "Futura", sans-serif;
+	text-decoration: none;
+	list-style: none;
+	display: flex;
+}
+
+h2 {
+	font-family: sans-serif;
+
+}
+
+h3 {
+	font-family: "Futura", sans-serif;
+	text-decoration: none;
+	list-style: none;
+	font-size: 20px;
+}
+
+p {
+	font-family: sans-serif;
+	font-size: 20px;
+
+}
+
+a:link {
+	color: black;
+}
+
+/* LINK HOVER */
+
+a:hover {
+	color: gray;
+	text-decoration: underline;
+}
+
+
+/* MAIN */
+
+.nikeboxes {
+	display: flex;
+	max-width: 700px;
+
+}
+
+img.nikeboxes {
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.trending img {
+	max-width: 100%;
+	height: 300px;
+	flex: 33.33%;
+	padding: 5px;
+
+
+}
+
+.trending {
+	display: flex;
+	overflow: scroll;
+}
+
+img.blazer {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.nikeair {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+div.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 1em;
+	grid-template-rows: 1fr;
+}
+
+.containerblazer {
+	position: relative;
+	max-width: 100%;
+}
+
+.containerblazer p {
+	position: absolute;
+	top: 80%;
+	left: 35%;
+	transform: translate(-50%, -50%);
+}
+
+.buttonblazer {
+	position: absolute;
+	top: 92%;
+	left: 27%;
+	transform: translate(-50%, -50%);
+	background-color: black;
+	color: white;
+	font-size: 16px;
+	padding: 0.8em 1em;
+	border: none;
+	cursor: pointer;
+	border-radius: 20em;
+}
+
+.containernikeair {
+	position: relative;
+	width: 100%;
+}
+
+.containernikeair p {
+	position: absolute;
+	top: 80%;
+	left: 35%;
+	transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 600px) {
+	p font-size: 12px;
+
+
+}
+
+@media only screen and (max-width: 700px) {
+	p {
+		font-size: 15px;
+	}
+}
+
+
+.buttonnikeair {
+	position: absolute;
+	top: 92%;
+	left: 27%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	color: black;
+	font-size: 16px;
+	padding: 0.8em 1em;
+	border: none;
+	cursor: pointer;
+	border-radius: 20em;
+}
+
+.buttonnikeair2 {
+	position: absolute;
+	top: 92%;
+	left: 45%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	color: black;
+	font-size: 16px;
+	padding: 0.8em 1em;
+	border: none;
+	cursor: pointer;
+	border-radius: 20em;
+}
+
+@media only screen and (max-width: 600px) {
+	.buttonnikeair2 {
+		left: 70%;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.buttonnikeair2 {
+		left: 60%;
+	}
+
+	/*https://www.w3schools.com/howto/howto_css_button_on_image.asp 
+*/
+
+/* PAGE 2: NIKE BLAZER */
+	
+	
+.blazercontainer {
+		display: grid;
+		grid-template-rows: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 2vw;
+
+	}
+
+.blazerimgwit {
+		max-width: 100%;
+		height: auto;
+	}
+.blazerimgroze {
+		max-width: 100%;
+		height: auto;
+	}
+	
+	.filter button {
+		border: none;
+		background: none;
+		margin: 1em;
+
+	}
+
+/* FOOTER */
+
+.footer {
+		background-color: #26272b;
+		padding: 3em;
+		font-size: 15px;
+		line-height: 24px;
+		color: #737373;
+		margin-top: 5em;
+		margin-left: -3.5em;
+		margin-right: -3.5em;
+	}
+
+.footer-links {
+		padding-left: 3em;
+		list-style: none;
+	}
+
+.footer-links a {
+		color: grey;
+	}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+		color: ghostwhite;
+		text-decoration: none;
+	}
+
+.site-footer .social-icons {
+		text-align: right
+	}
+
+.social-icons {
+		padding-left: 3em;
+		margin-bottom: 0;
+		list-style: none;
+	}
+
+.social-icons li {
+		display: inline-block;
+		margin: 0.5em;
+	}
+
+
+
+
+
+
+	/*NIKE BLAZER*/
+
+
+
+	/*sources: https://www.nike.com/nl/,
+https://c.static-
+
+Give Sport Images: 
+nike.com/a/images/w_1920,c_limit/772f6eb6-ef62-4cdc-b09b-922a06dafb9e/image.jpg,
+https://c.static-nike.com/a/images/f_auto/w_1920,c_limit/6209c41b-e97a-4786-add5-bfca475d6e1c/nikecom-homepage.jpg,
+
+Trending now:
+
+Nike Air Max 270 React
+https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/57a4ed0a-6973-42e0-aa99-6b60b1167318/air-max-270-react-lx-damesschoen-mZW8KN.jpg
+
+Nike Sportswear Club
+https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/fjmhriljem2ndmrazal6/sportswear-club-hoodie-heren-24wDw5.jpg
+
+Nike Sportswear Roze vest
+https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/dc06bd71-bd40-43d2-955c-36a4e6bc01b5/sportswear-damesjack-met-capuchon-en-rits-LDftQ7.jpg
+
+Nike Sportswear Shirts Kids
+https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/7afa2b70-4e73-4c8a-852f-98ec9f4136dc/sportswear-t-shirt-met-print-lpdvtP.jpg
+
+Nike Sportswear Trui Kids
+https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/a1f30525-b712-49b2-ad55-7f54b84c40d0/sportswear-club-fleece-hoodie-2QM3wV.jpg
+
+Nike Shox TL
+
+https://c.static-nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/k2q7ogwma1vc1vjwrgt7/shox-tl-herenschoen-LSD9df.jpg
+
+Gear Up:
+
+Nike Air
+https://c.static-nike.com/a/images/f_auto/dpr_2.0/h_700,c_limit/28e5e0db-b2c4-4e05-a220-62e8fc7933c4/123-emea-homepage.jpg
+
+Nike Blazer  
+https://c.static-nike.com/a/images/f_auto/dpr_2.0/h_700,c_limit/d55a8729-0b1c-4a7b-bcef-72fc1b55905a/123-emea-homepage.png
+
+
+
+
+
+/* 
+
+Voor mezelf 
+
+display:grid;
+grid-template-columns: 1fr 2fr 1fr (3 kolommen, middelste is 2 keer zo breed als de anderen);
+
+grid-column: 1 / -1 
+fr = verdeeld de ruimte zelf. 
+repeat(5,1fr) = 1fr 1fr 1fr 1fr 1fr 
+
+van de grid opdracht:
+
+display: grid;
+grid-template-column: 1fr 1fr 1fr 1fr;
+grid-gap: 1 em;
+
+article:frist-of-child {
+grid-column: 1 / 3;
+grid-row: 1 / 3;
+
+
+@media (min-width: 50em) {
+main {
+gird-template-columns: 1fr 1fr;
+}
+}
+
+grid-template-columns: repeat(auto-fill, 200px);
+of
+grid-template-columns: repeat(auto-fill, minmax(100px, 200px));
+
+note: volledige breedte = 1 / -1
+
+
+Javascript les:
+
+HTML: 
+
+<header> dit is de header</header>
+<main> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates nulla ex commodi rem obcaecati sit optio magni ea, illo nihil iure consequatur, placeat laborum assumenda natus iste nam. Ab, cumque. </main>
+
+<button id="deze"> Klik hier </button>
+CSS:
+header {
+backround: yellow;
+height: 5em; 
+margin-top: -5.5em;
+transition: .3s;
+}
+
+.zaknaarbeneden {
+margin-top: 0;
+}
+
+
+JAVA:
+
+var button = document.querySelector('#deze');
+var headerelement = document.querySelector('header');
+
+function klik () {
+headerelement.classList.toggle('zaknaarbeneden')
+}
+
+button addEventlistener('click', klik)
